@@ -1,0 +1,18 @@
+﻿<Window x:Class="PR10.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PR10"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Height="76" Margin="189,89,0,0" Text="Введите число " TextWrapping="Wrap" VerticalAlignment="Top" Width="390"/>
+        <TextBlock HorizontalAlignment="Left" Height="71" Margin="189,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="390" RenderTransformOrigin="0.498,0.51"><Run Language="ru-ru" Text="Ответ"/></TextBlock>
+        <RadioButton Content="BIN" HorizontalAlignment="Left" Height="23" Margin="189,253,0,0" VerticalAlignment="Top" Width="54"/>
+        <RadioButton Content="OCT" HorizontalAlignment="Left" Height="23" Margin="346,253,0,0" VerticalAlignment="Top" Width="54"/>
+        <RadioButton Content="HEX" HorizontalAlignment="Left" Height="23" Margin="525,253,0,0" VerticalAlignment="Top" Width="54" RenderTransformOrigin="5.441,1.562"/>
+        <Button Content="Вычислить" HorizontalAlignment="Left" Height="59" Margin="189,297,0,0" VerticalAlignment="Top" Width="390"/>
+
+    </Grid>
+</Window>
